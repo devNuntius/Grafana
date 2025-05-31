@@ -1,29 +1,4 @@
-{
-  "schema": {
-    "fields": [
-      {"name": "timestamp", "type": "time"},
-      {"name": "user.id", "type": "string"},
-      {"name": "user.session_start", "type": "time"},
-      {"name": "game.levels_completed", "type": "number"},
-      {"name": "game.session_duration", "type": "number"},
-      {"name": "game.deaths", "type": "number"},
-      {"name": "game.power_ups", "type": "string[]"},
-      {"name": "game.interactions", "type": "string[]"},
-      {"name": "location.country", "type": "string"},
-      {"name": "location.city", "type": "string"},
-      {"name": "location.ip", "type": "string"},
-      {"name": "device.type", "type": "string"},
-      {"name": "device.brand", "type": "string"},
-      {"name": "device.model", "type": "string"},
-      {"name": "device.gpu", "type": "string"},
-      {"name": "device.cpu", "type": "string"},
-      {"name": "device.ram", "type": "number"},
-      {"name": "device.screen", "type": "string"},
-      {"name": "settings.language", "type": "string"},
-      {"name": "settings.platform", "type": "string"}
-    ]
-  },
-  "data": [
+"data": [
     {
       "timestamp": "2025-05-30T22:31:47.289418Z",
       "user": {
